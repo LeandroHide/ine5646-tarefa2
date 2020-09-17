@@ -1,0 +1,73 @@
+
+body {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: darkslategrey;
+    margin: 0%;
+}
+
+#banner{
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#banner_image{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#titulo{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+#foto_overlap{
+    transform: translate(0%, -35%);
+}
+
+#foto{
+    width: 90px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid white 5px;
+}
+
+#listaMangas{
+    text-align: left;
+    margin: 20px 10px;
+}
+
+#item_lista {
+    width: calc(66.67% - 20px);
+    padding: 25px 15px 10px;
+    margin: 20px auto;
+    border: solid gray 1px;
+    border-radius: 20px;
+}
+
+#item_nome {
+    font-size: 24px;
+}
+
+#item_subtitulo {
+    font-size: 16px;
+}
+
+#item_sinopse {
+    text-align: justify;
+    font-size: 14px;
+}
+
+#item_imagem {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+}
