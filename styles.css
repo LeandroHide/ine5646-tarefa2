@@ -7,14 +7,16 @@ body {
 }
 
 #banner{
+    display: flex;
+    flex-direction: column;
     position: relative;
     padding: 20px;
-    box-sizing: border-box;
+
 }
 
 #banner_image{
     height: 200px;
-    width: 100%;
+
     object-fit: cover;
 
 }
@@ -40,8 +42,10 @@ body {
 }
 
 #listaMangas{
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    margin: 20px 10px;
+
 }
 
 #item_lista {
@@ -69,5 +73,5 @@ body {
     height: 300px;
     width: 100%;
     border-radius: 20px;
-    object-fit: contain;
+    object-fit: cover;
 }
